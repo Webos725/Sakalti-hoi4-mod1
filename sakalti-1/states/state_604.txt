@@ -1,0 +1,7 @@
+state = {
+    id = 604
+    name = "青海省"
+    owner = XSL  # ホタル国が所有
+    controller = HOTAL  # ホタル国が支配
+    capital = 604  # 青海省が首都
+}
