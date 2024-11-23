@@ -1,7 +1,26 @@
 state = {
     id = 604
-    name = "青海省"
-    owner = XSL  # ホタル国が所有
-    controller = HTL  # ホタル国が支配
-    capital = 604  # 青海省が首都
+    name = "STATE_604"
+    manpower = 260000 # 初期人口を26万人に設定
+    category = rural  # 農村部（人口が少なめ）
+
+    history = {
+        owner = HTL  # ホタル国が所有
+        controller = HTL  # ホタル国が統治
+        add_core_of = HTL  # ホタル国のコア領土
+        buildings = {
+            infrastructure = 4  # インフラレベルを4
+            arms_factory = 2  # 軍需工場を2つ
+            civilian_factory = 3  # 民需工場を3つ
+        }
+    }
+
+    provinces = {
+        6001 6002 6003  # 青海省のプロビンスID
+    }
+
+    resources = {
+        steel = 7  # 鉄を7ユニット
+        oil = 6  # 石油を6ユニット
+    }
 }
