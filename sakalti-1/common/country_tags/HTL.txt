@@ -16,7 +16,7 @@ HTL = {
     equipment = {
         infantry_equipment = 150000  # 初期歩兵装備（例: 150,000）
         artillery = 6800  # 初期砲兵（例: 6,800）
-        tank = 894  # 初期戦車（例: 8,94）
+        tank = 894  # 初期戦車（例: 894）
         fighter = 117  # 初期戦闘機（例: 117）
     }
 }
