@@ -8,12 +8,12 @@ event = {
 
     trigger = {
         has_government = monarchist
-        is_owned_by = 123  # 蛍国のID（例: 123に設定）
+        is_owned_by = 604  # 蛍国のID（例: 604に設定）
     }
 
     option = {
         name = "蛍国は怒りとともに立ち上がる"
-        add_political_power = 100
+        add_political_power = 80
         set_country_flag = HOTAL_INDEPENDENCE
     }
 }
