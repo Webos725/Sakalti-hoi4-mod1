@@ -1,5 +1,5 @@
 HTL = {
-    color = { 0.2 1.0 0.2 }
+    color = { 0.5 1.0 0.5 }
     capital = 604  # 青海省のID
     primary_culture = hotal
     base_tax = 5
