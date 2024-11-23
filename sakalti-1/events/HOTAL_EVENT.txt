@@ -1,0 +1,19 @@
+namespace = HOTAL_EVENT
+
+event = {
+    id = HOTAL_1
+    title = "蛍国の誕生"
+    desc = "蛍国は王政のもとで独立し、新たな時代を切り開こうとしている。"
+    picture = GFX_report_event_generic
+
+    trigger = {
+        has_government = monarchist
+        is_owned_by = 123  # 蛍国のID（例: 123に設定）
+    }
+
+    option = {
+        name = "蛍国は怒りとともに立ち上がる"
+        add_political_power = 100
+        set_country_flag = HOTAL_INDEPENDENCE
+    }
+}
