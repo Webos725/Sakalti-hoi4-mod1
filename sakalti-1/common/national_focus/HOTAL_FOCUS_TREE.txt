@@ -1,32 +1,47 @@
 focus_tree = {
-    id = HOTAL_FOCUS_TREE
+    id = HTL_focus_tree
     focus = {
-        id = HOTAL_1
-        icon = GFX_goal_generic_political
+        id = HTL_1
+        icon = GFX_goal_generic_construct_factory
         x = 10
-        y = 5
+        y = 2
         cost = 10
+        completion_reward = { add_political_power = 150 }
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 1 }
+        bypass = { has_government = republican }  # 共和制に変わったらバイパス
+        completion_reward = { add_stability = 0.1 }
+        completion_reward = { add_political_power = 50 }
+        desc = "王政の強化"
+    }
+
+    focus = {
+        id = HTL_2
+        icon = GFX_goal_generic_purge
+        x = 10
+        y = 4
+        cost = 10
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 0.5 }
+        completion_reward = { add_political_power = 200 }
+        desc = "社会主義の潮流"
         completion_reward = {
-            add_political_power = 150
-        }
-        completion = {
-            set_country_flag = HOTAL_FIRST_FOCUS
-        }
-        available = {
-            has_government = monarchist
+            change_government = communist  # 社会主義への変更
         }
     }
+
     focus = {
-        id = HOTAL_2
-        icon = GFX_goal_generic_military
-        x = 10
-        y = 6
+        id = HTL_3
+        icon = GFX_goal_generic_reform
+        x = 20
+        y = 2
         cost = 10
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 0.5 }
+        completion_reward = { add_political_power = 200 }
+        desc = "共和制の導入"
         completion_reward = {
-            add_technology = tech_infantry_weapons
-        }
-        available = {
-            has_country_flag = HOTAL_FIRST_FOCUS
+            change_government = republican  # 共和制への変更
         }
     }
 }
