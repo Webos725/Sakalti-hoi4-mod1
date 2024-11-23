@@ -1,0 +1,30 @@
+division_template = {
+    id = HOTAL_INFANTRY_DIVISION
+    name = "蛍国歩兵師団"
+    type = infantry
+    division = {
+        infantry = 12
+        artillery = 4
+        tank = 2
+        anti_air = 1
+    }
+}
+
+air_wing = {
+    id = HOTAL_AIR_WING
+    name = "蛍国戦闘機部隊"
+    type = fighter
+    strength = 102400
+}
+
+army = {
+    id = HOTAL_ARMY
+    name = "蛍国軍"
+    divisions = 98000
+}
+
+navy = {
+    id = HOTAL_NAVY
+    name = "蛍国海軍"
+    ships = 50000
+}
