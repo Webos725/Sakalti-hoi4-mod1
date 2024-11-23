@@ -1,0 +1,19 @@
+units = {
+    air_wings = {
+        # 戦闘機部隊
+        {
+            name = "第1戦闘航空団"
+            location = 604  # 配置する州のID（青海省）
+            equipment = { fighter_equipment_1 = 50 }  # 初期戦闘機の数
+            start_experience_factor = 0.5  # 訓練度（0～1）
+        }
+
+        # 爆撃機部隊
+        {
+            name = "第1爆撃航空団"
+            location = 604
+            equipment = { bomber_equipment_1 = 20 }  # 初期爆撃機の数
+            start_experience_factor = 0.6
+        }
+    }
+}
