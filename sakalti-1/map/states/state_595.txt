@@ -1,0 +1,26 @@
+state = {
+    id = 595
+    name = "イテュルク"
+    manpower = 400000 # 初期人口を40万人に設定
+    category = rural  # 農村部（人口が少なめ）
+
+    history = {
+        owner = ITK  # ホタル国が所有
+        controller = ITK  # ホタル国が統治
+        add_core_of = ITK  # ホタル国のコア領土
+        buildings = {
+            infrastructure = 3  # インフラレベルを4
+            arms_factory = 1  # 軍需工場を2つ
+            civilian_factory = 4  # 民需工場を3つ
+        }
+    }
+
+    provinces = {
+        4053 1006 1014 1138 1166 1193 4053 4070 4113 4169 4196 7027 7071 7099 10069 10084 10093 11986 12057 10054 10010 10012 10042 12084  # 青海省のプロビンスID
+    }
+
+    resources = {
+        steel = 4  # 鉄を4ユニット
+        oil = 8 # 石油を8ユニット
+    }
+}
