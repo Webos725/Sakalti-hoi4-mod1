@@ -1,0 +1,32 @@
+focus_tree = {
+    id = HOTAL_FOCUS_TREE
+    focus = {
+        id = HOTAL_1
+        icon = GFX_goal_generic_political
+        x = 10
+        y = 5
+        cost = 10
+        completion_reward = {
+            add_political_power = 150
+        }
+        completion = {
+            set_country_flag = HOTAL_FIRST_FOCUS
+        }
+        available = {
+            has_government = monarchist
+        }
+    }
+    focus = {
+        id = HOTAL_2
+        icon = GFX_goal_generic_military
+        x = 10
+        y = 6
+        cost = 10
+        completion_reward = {
+            add_technology = tech_infantry_weapons
+        }
+        available = {
+            has_country_flag = HOTAL_FIRST_FOCUS
+        }
+    }
+}
