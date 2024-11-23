@@ -1,4 +1,4 @@
-HOTAL = {
+HTL = {
     color = { 0.5 0.5 0.5 }
     capital = 604  # 青海省のID
     primary_culture = hotal
