@@ -1,0 +1,9 @@
+HOTAL = {
+    color = { 0.5 0.5 0.5 }
+    capital = 123  # 蛍国の首都ID（例: 123に設定）
+    primary_culture = hotal
+    base_tax = 5
+    army = 98000
+    air = 102400
+    navy = 50000
+}
