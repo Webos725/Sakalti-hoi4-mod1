@@ -1,0 +1,22 @@
+HTL = {
+    color = { 0.5 0.2 0.2 }
+    capital = 595  # 福建省のID
+    primary_culture = iturk
+    base_tax = 8
+    army = 100000
+    air = 10000
+    navy = 10000
+    owner = {
+        595  # 青海省のID
+    }
+    cores = {
+        595  # 青海省のコア
+    }
+    manpower = 130000  # 初期人的資源（例: 130,000人）
+    equipment = {
+        infantry_equipment = 100000  # 初期歩兵装備（例: 100,000）
+        artillery = 100000  # 初期砲兵（例: 6,800）
+        tank = 300  # 初期戦車（例: 894）
+        fighter = 60  # 初期戦闘機（例: 117）
+    }
+}
