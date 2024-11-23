@@ -4,7 +4,7 @@ HTL = {
     primary_culture = iturk
     base_tax = 8
     army = 100000
-    air = 10000
+    air = 100000
     navy = 10000
     owner = {
         595  # 青海省のID
@@ -12,7 +12,7 @@ HTL = {
     cores = {
         595  # 青海省のコア
     }
-    manpower = 130000  # 初期人的資源（例: 130,000人）
+    manpower = 400000  # 初期人的資源（例: 400,000人）
     equipment = {
         infantry_equipment = 100000  # 初期歩兵装備（例: 100,000）
         artillery = 100000  # 初期砲兵（例: 6,800）
