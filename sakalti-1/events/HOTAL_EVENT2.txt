@@ -1,0 +1,15 @@
+namespace = HOTAL_EVENTS
+
+event = {
+    id = HOTAL_2
+    title = "社会主義への道"
+    desc = "ホタル国は急激な社会変革の道を選んだ。これにより、社会主義に向けて舵を切ることになる。"
+    picture = GFX_report_event_generic
+    trigger = { has_government = monarchist }
+    
+    option = {
+        name = "社会主義へ進む"
+        change_government = communist
+        add_political_power = -40
+    }
+}
