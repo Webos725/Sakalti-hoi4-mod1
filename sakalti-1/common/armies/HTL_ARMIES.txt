@@ -1,0 +1,28 @@
+units = {
+    divisions = {
+        # 歩兵師団
+        {
+            name = "第1歩兵師団"
+            location = 604  # 配置する州のID（青海省）
+            division_template = "歩兵師団"  # テンプレート名（要定義）
+            start_experience_factor = 0.7  # 訓練度（0～1）
+            start_equipment_factor = 0.7  # 装備の充足率（0～1）
+        }
+        {
+            name = "第2歩兵師団"
+            location = 604
+            division_template = "歩兵師団"
+            start_experience_factor = 0.6
+            start_equipment_factor = 1.0
+        }
+
+        # 装甲師団
+        {
+            name = "第1装甲師団"
+            location = 604
+            division_template = "装甲師団"  # テンプレート名（要定義）
+            start_experience_factor = 0.9
+            start_equipment_factor = 0.4
+        }
+    }
+}
