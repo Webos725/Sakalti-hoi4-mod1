@@ -3,7 +3,7 @@ HTL = {
     capital = 604  # 青海省のID
     primary_culture = hotal
     base_tax = 5
-    army = 98000
+    army = 150000
     air = 102400
     navy = 50000
     owner = {
@@ -11,5 +11,12 @@ HTL = {
     }
     cores = {
         604  # 青海省のコア
+    }
+    manpower = 260000  # 初期人的資源（例: 260,000人）
+    equipment = {
+        infantry_equipment = 150000  # 初期歩兵装備（例: 150,000）
+        artillery = 6800  # 初期砲兵（例: 6,800）
+        tank = 894  # 初期戦車（例: 8,94）
+        fighter = 117  # 初期戦闘機（例: 117）
     }
 }
