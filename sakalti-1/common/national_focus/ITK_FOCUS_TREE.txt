@@ -1,0 +1,47 @@
+focus_tree = {
+    id = ITK_focus_tree
+    focus = {
+        id = ITK_1
+        icon = GFX_goal_generic_construct_factory
+        x = 10
+        y = 2
+        cost = 30
+        completion_reward = { add_political_power = 120 }
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 1 }
+        bypass = { has_government = republican }  # 共和制に変わったらバイパス
+        completion_reward = { add_stability = 0.15 }
+        completion_reward = { add_political_power = 60 }
+        desc = "王政の強化"
+    }
+
+    focus = {
+        id = ITK_2
+        icon = GFX_goal_generic_purge
+        x = 10
+        y = 4
+        cost = 10
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 0.3 }
+        completion_reward = { add_political_power = -20 }
+        desc = "社会主義の時代"
+        completion_reward = {
+            change_government = communist  # 社会主義への変更
+        }
+    }
+
+    focus = {
+        id = ITK_3
+        icon = GFX_goal_generic_reform
+        x = 20
+        y = 2
+        cost = 20
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 0.7 }
+        completion_reward = { add_political_power = 90 }
+        desc = "共和制の導入"
+        completion_reward = {
+            change_government = republican  # 共和制への変更
+        }
+    }
+}
