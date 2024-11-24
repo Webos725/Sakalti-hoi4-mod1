@@ -1,0 +1,18 @@
+event = {
+    id = HTL_ITK_2
+    title = "ホタル国とイテュルク国の戦争"
+    desc = "ついにホタル国とイテュルク国の間に戦争が勃発した。"
+    picture = GFX_report_event_generic
+    trigger = {
+        has_government = monarchist
+        relation = {
+            country = ITK
+            value < -50  # 敵対関係が-50以下
+        }
+    }
+
+    option = {
+        name = "戦争を宣言する"
+        declare_war = ITK  # イテュルク国に戦争を宣言
+    }
+}
