@@ -61,4 +61,21 @@ focus_tree = {
             change_government = republican  # 共和制への変更
         }
     }
+
+    # 共和制ルート：国際的影響力の強化
+    focus = {
+        id = HTL_Diplomatic_Strength
+        icon = GFX_goal_generic_influence
+        x = 25
+        y = 8
+        cost = 15
+        prerequisite = { focus = HTL_3 }
+        available = { has_government = republican }
+        ai_will_do = { factor = 0.7 }
+        desc = "国際的な影響力を強化する"
+        completion_reward = {
+            add_diplomatic_influence = 26  # 国際的な影響力（仮設定）
+            add_political_power = 15
+        }
+    }
 }
