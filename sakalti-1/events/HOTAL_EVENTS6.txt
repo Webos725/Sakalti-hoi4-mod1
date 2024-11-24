@@ -1,0 +1,27 @@
+namespace = hotaru_events6
+
+# イテュルク降伏後のイベント
+event = {
+    id = hotaru_events.6
+    title = "ホタル帝国の誕生"
+    desc = "ホタル国はイテュルク国を征服し、王政から帝政に移行しました。ホタル帝国が誕生しました。"
+
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = "ホタル帝国を宣言する！"
+        trigger = {
+            tag = HTL
+            controls_state = 595 # イテュルク国の首都を制圧
+        }
+        effect = {
+            country_event = { id = hotaru_events.2 }
+            change_tag = HTE
+            set_government = fascism  # 政府形態を帝政に変更
+            set_country_flag = hotaru_empire_flag
+            add_stability = 0.2
+            add_political_power = 150
+        }
+    }
+}
