@@ -1,0 +1,6 @@
+relation = {
+    from = HTL  # ホタル国
+    to = ITK  # イテュルク国
+    relation = hostile  # 敵対関係（"hostile"）
+    start_date = "1938.03.01"  # 初期の関係スタート日
+}
