@@ -1,0 +1,19 @@
+namespace = ITK_EVENTS
+
+event = {
+    id = ITK_2
+    title = "社会主義への道"
+    desc = "イテュルク国は急激な社会変革の道を選んだ。これにより、社会主義に向けて舵を切ることになる。"
+    picture = GFX_report_event_generic
+    trigger = { has_government = monarchist }
+    
+    option = {
+        name = "社会主義へ進む"
+        change_government = communist
+        add_political_power = -29
+    }
+    option = {
+        name = "拒否
+        add_political_power = -25
+    }
+}
