@@ -1,5 +1,7 @@
 focus_tree = {
     id = ITK_focus_tree
+
+    # 王政ルート開始
     focus = {
         id = ITK_1
         icon = GFX_goal_generic_construct_factory
@@ -9,39 +11,110 @@ focus_tree = {
         completion_reward = { add_political_power = 120 }
         available = { has_government = monarchist }
         ai_will_do = { factor = 1 }
-        bypass = { has_government = republican }  # 共和制に変わったらバイパス
+        bypass = { has_government = republican }
         completion_reward = { add_stability = 0.15 }
         completion_reward = { add_political_power = 60 }
         desc = "王政の強化"
     }
 
+    # 王政ルート：ホタル国への宣戦布告
+    focus = {
+        id = ITK_Declare_War
+        icon = GFX_goal_generic_war
+        x = 8
+        y = 4
+        cost = 20
+        prerequisite = { focus = ITK_1 }
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 1 }
+        desc = "蛍国との戦争準備"
+        completion_reward = {
+            declare_war = HTL  # ホタル国に宣戦布告
+        }
+    }
+
+    # 王政ルート：権威強化
+    focus = {
+        id = ITK_Strengthen_Monarchy
+        icon = GFX_goal_generic_reform_government
+        x = 12
+        y = 4
+        cost = 20
+        prerequisite = { focus = ITK_1 }
+        available = { has_government = monarchist }
+        ai_will_do = { factor = 0.8 }
+        desc = "王政の権威をさらに強化する"
+        completion_reward = {
+            add_stability = 0.2
+            add_political_power = 100
+        }
+    }
+
+    # 社会主義ルート開始
     focus = {
         id = ITK_2
         icon = GFX_goal_generic_purge
         x = 10
-        y = 4
+        y = 6
         cost = 10
+        prerequisite = { focus = ITK_1 }
         available = { has_government = monarchist }
         ai_will_do = { factor = 0.3 }
-        completion_reward = { add_political_power = -20 }
         desc = "社会主義の時代"
         completion_reward = {
             change_government = communist  # 社会主義への変更
+            add_political_power = -50
         }
     }
 
+    # 社会主義ルート：世界革命
+    focus = {
+        id = ITK_World_Revolution
+        icon = GFX_goal_generic_propaganda
+        x = 10
+        y = 8
+        cost = 15
+        prerequisite = { focus = ITK_2 }
+        available = { has_government = communist }
+        ai_will_do = { factor = 0.7 }
+        desc = "世界に革命を広める"
+        completion_reward = {
+            add_political_power = 80
+            create_faction = "革命同盟"  # 社会主義勢力を集める派閥を作る
+        }
+    }
+
+    # 共和制ルート開始
     focus = {
         id = ITK_3
         icon = GFX_goal_generic_reform
-        x = 20
+        x = 14
         y = 2
         cost = 20
+        prerequisite = { focus = ITK_1 }
         available = { has_government = monarchist }
         ai_will_do = { factor = 0.7 }
-        completion_reward = { add_political_power = 90 }
         desc = "共和制の導入"
         completion_reward = {
             change_government = republican  # 共和制への変更
+            add_political_power = 50
+        }
+    }
+
+    # 共和制ルート：国際的影響力の強化
+    focus = {
+        id = ITK_Diplomatic_Strength
+        icon = GFX_goal_generic_influence
+        x = 14
+        y = 4
+        cost = 15
+        prerequisite = { focus = ITK_3 }
+        available = { has_government = republican }
+        ai_will_do = { factor = 0.6 }
+        desc = "国際的な影響力を強化する"
+        completion_reward = {
+            add_diplomatic_influence = 20  # 国際的な影響力（仮設定）
+            add_political_power = 30
         }
     }
 }
