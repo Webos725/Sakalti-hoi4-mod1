@@ -1,0 +1,39 @@
+relation = {
+    target = USA
+    value = 50
+}
+  
+relation = {
+    target = ITK
+    value = -85
+}
+
+relation = {
+    target = SOV
+    value = -30
+}
+
+relation = {
+    target = GER
+    value = -100
+}
+
+relation = {
+    target = ENG
+    value = 75
+}
+
+relation = {
+    target = FRA
+    value = 0
+}
+
+relation = {
+    target = ITA
+    value = -50
+}
+
+relation = {
+    target = JAP
+    value = 100
+}
