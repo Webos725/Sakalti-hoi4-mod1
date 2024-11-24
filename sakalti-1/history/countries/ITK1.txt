@@ -1,0 +1,3 @@
+on_capitulation = {
+    trigger_event = hotaru_events.1
+}
