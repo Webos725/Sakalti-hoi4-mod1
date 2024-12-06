@@ -81,17 +81,17 @@ focus_tree = {
 
     focus = {
         id = HTL_Manpower
-        icon = GFX_goal_generic_influence
+        icon = GFX_goal_generic_inference
         x = 35
         y = 4
-        cost = 15
+        cost = 20
         prerequisite = { focus = HTL_Diplomatic_Strength }
         available = { has_government = republican }
         ai_will_do = { factor = 0.2 }
         desc = "人口増加"
         completion_reward = {
             add_diplomatic_influence = 3  # 国際的な影響力（仮設定）
-            manpower = 1234
+            add_manpower = 198500
         }
     }
 }
