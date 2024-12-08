@@ -1,0 +1,14 @@
+HTE_mortem_hotalus = {
+ name = "モルテム・ホタルス"
+ portraits = {
+  army = {
+   large = "gfx/leaders/HTE/leader_HTE_morten_hotalus"
+  }
+ field_marshal = {
+  skill = 5
+  attack_skill = 7
+  degense_skill = 3
+  planning_skill = 2
+  logistics_skill = 2
+ }
+}
