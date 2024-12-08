@@ -1,6 +1,16 @@
-l_english:
+l_japanese:
   HOTAL_ANGER_IDEA_NAME: "蛍国の怒り"
   HOTAL_ANGER_IDEA_DESC: "蛍国は怒りを力に変え、軍事力を恐ろしいほど強化します。"
   HOTAL_1_TITLE: "蛍国の誕生"
   HOTAL_1_DESC: "蛍国は王政のもとで独立し、新たな時代を切り開こうとしている。"
   HOTAL_1_OPTION: "蛍国は怒りとともに立ち上がる"
+  HTL: "ホタル国"
+  HTL_DEF: "ホタル国"
+  HTL_ADJ: "ホタル国"
+  HTE: "ホタル帝国"
+  HTE_fascism: "ホタル帝国"
+  HTE_republican: "ホタル共和国"
+  HTL: "ホタル国"
+  HTL_neutrality: "ホタル人民共和国"
+  HTL_communism: "ホタル連邦"
+  
