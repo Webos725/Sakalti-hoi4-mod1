@@ -1,0 +1,14 @@
+HTL_assamar_shanyeq = {
+ name = "アシャマー・ターニェック"
+ portraits = {
+  army = {
+   large = "gfx/leaders/HTE/leader_HTE_assamar_thanyeq"
+  }
+ field_marshal = {
+  skill = 3
+  attack_skill = 4
+  degense_skill = 5
+  planning_skill = 3
+  logistics_skill = 2
+ }
+}
