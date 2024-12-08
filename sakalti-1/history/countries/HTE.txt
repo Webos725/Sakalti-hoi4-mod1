@@ -45,3 +45,8 @@ set_politics = {
     elections_allowed = no
     last_election = "1937.9.4"
 }
+
+create_country_reader = {
+ name = "ホチュンテルロ一世"
+ portait = "hocunterlor.dds"
+ ideology = "fascism"
