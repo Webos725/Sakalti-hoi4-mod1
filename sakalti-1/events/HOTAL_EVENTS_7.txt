@@ -1,0 +1,24 @@
+namespace = hotaru_events7
+
+# 
+event = {
+    id = hotaru_events.6
+    title = "ホタル帝国の進捗"
+    desc = "ホタル国は進捗している。"
+
+    picture = GFX_report_event_generic
+    is_triggered_only = yes
+
+    option = {
+        name = "それは素晴らしいことだ。ただし周辺国から侵攻されるのではないか。"
+        trigger = {
+            tag = HTL
+            controls_state = 533 # 東北を征服
+        }
+        effect = {
+            country_event = { id = hotaru_events.7 }
+            add_stability = -0.1
+            add_political_power = 5
+        }
+    }
+}
