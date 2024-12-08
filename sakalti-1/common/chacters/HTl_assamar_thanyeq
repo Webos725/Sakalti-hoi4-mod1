@@ -2,7 +2,7 @@ HTL_assamar_shanyeq = {
  name = "アシャマー・ターニェック"
  portraits = {
   army = {
-   large = "gfx/leaders/HTE/leader_HTE_assamar_thanyeq"
+   large = "gfx/leaders/HTL/leader_HTE_assamar_thanyeq"
   }
  field_marshal = {
   skill = 3
