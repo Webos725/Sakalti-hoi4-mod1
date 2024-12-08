@@ -37,3 +37,14 @@ relation = {
     target = JAP
     value = 100
 }
+
+capital = 604
+
+set_stability = 0.48
+set_war_support = 0.8
+
+set_popularities = {
+ neutrality = 40
+ republican = 30
+ fascism = 25
+ communism = 5
