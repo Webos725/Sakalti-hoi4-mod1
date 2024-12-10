@@ -15,7 +15,34 @@ units = {
             start_experience_factor = 0.8
             start_equipment_factor = 0.9
         }
-
+        {
+            name = "第3歩兵師団"
+            location = 604
+            division_template = "歩兵師団"
+            start_experience_factor = 0.6
+            start_equipment_factor = 0.6
+        }
+        {
+            name = "第4歩兵師団"
+            location = 604
+            division_template = "歩兵師団"
+            start_experience_factor = 0.7
+            start_equipment_factor = 0.5
+        }
+        {
+            name = "第5歩兵師団"
+            location = 604
+            division_template = "歩兵師団"
+            start_experience_factor = 0.6
+            start_equipment_factor = 0.8
+        }
+        {
+            name = "第6歩兵師団"
+            location = 604
+            division_template = "歩兵師団"
+            start_experience_factor = 1.0
+            start_equipment_factor = 0.8
+        }
         # 装甲師団
         {
             name = "第1装甲師団"
