@@ -43,6 +43,13 @@ units = {
             start_experience_factor = 1.0
             start_equipment_factor = 0.8
         }
+        {
+            name = "第7歩兵師団"
+            location = 595
+            division_template = "歩兵師団"
+            start_experience_factor = 1.0
+            start_equipment_factor = 1.0
+        }
         # 装甲師団
         {
             name = "第1装甲師団"
