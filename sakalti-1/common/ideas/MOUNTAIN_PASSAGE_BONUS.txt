@@ -1,6 +1,6 @@
 mountain_passage_bonus = {
     icon = GFX_idea_mountain_passage
-    allowed = { always = yes } # 条件（例：この特性はゲーム開始時に存在）
+    allowed = { tag = HTL }  # HTLの国のみ使用可能
     modifier = {
         movement_cost_on_mountain = -0.3 # 山岳地帯の移動コスト -30%
         attack_on_mountain = 0.15 # 山岳での攻撃 +15%
