@@ -1,5 +1,5 @@
 idea = {
-    id = HOTAL_ANGER_IDEA
+    id = HTL_ANGER_IDEA
     name = "蛍国の怒り"
     desc = "蛍国は怒りを力に変え、軍事力を恐ろしいほど強化します。"
     modifier = {
