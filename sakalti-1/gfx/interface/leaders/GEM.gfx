@@ -1,0 +1,4 @@
+spriteTypes = {
+  spriteType = {
+  name = GFX_leader_GEM_polan
+  textures = "gfx/leaders/GEM/leader_GEM_Polan.tga
