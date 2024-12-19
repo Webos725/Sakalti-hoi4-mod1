@@ -1,0 +1,22 @@
+HTL = {
+    color = { 1.0 0.8 0.1 }
+    capital = 68  # ostmarkのID
+    primary_culture = germoney
+    base_tax = 4
+    army = 360000
+    air = 250000
+    navy = 180000
+    owner = {
+        68  # ostmarkのID
+    }
+    cores = {
+        68  # ostmarkのコア
+    }
+    manpower = 945000  # 初期人的資源（例: 260,000人）
+    equipment = {
+        infantry_equipment = 2400000  # 初期歩兵装備
+        artillery = 7000  # 初期砲兵（例: 7,000）
+        tank = 750 # 初期戦車（例: 750）
+        fighter = 150  # 初期戦闘機（例: 150）
+    }
+}
