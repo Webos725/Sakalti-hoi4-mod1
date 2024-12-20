@@ -1,0 +1,48 @@
+units = {
+    air_wings = {
+        # 戦闘機部隊
+        {
+            name = "第1戦闘航空団"
+            location = 646
+            equipment = { fighter_equipment_1 = 11 }  # 初期戦闘機の数
+            start_experience_factor = 0.5  # 訓練度（0～1）
+        }
+        {
+            name = "第2戦闘航空団"
+            location = 537
+            equipment = { fighter_equipment_1 = 45 }  # 初期戦闘機の数
+            start_experience_factor = 0.6  # 訓練度（0～1）
+        }
+        {
+            name = "第3戦闘航空団"
+            location = 536
+            equipment = { fighter_equipment_1 = 26 }  # 初期戦闘機の数
+            start_experience_factor = 0.6  # 訓練度（0～1）
+        }
+        {
+            name = "第4戦闘航空団"
+            location = 533
+            equipment = { fighter_equipment_1 = 4 }  # 初期戦闘機の数
+            start_experience_factor = 1.0  # 訓練度（0～1）
+        }
+        {
+            name = "第5戦闘航空団"
+            location = 533
+            equipment = { fighter_equipment_1 = 8 }  # 初期戦闘機の数
+            start_experience_factor = 0.9  # 訓練度（0～1）
+        }
+        {
+            name = "第6戦闘航空団"
+            location = 463
+            equipment = { fighter_equipment_1 = 15 }  # 初期戦闘機の数
+            start_experience_factor = 0.5  # 訓練度（0～1）
+        }
+        # 爆撃機部隊
+        {
+            name = "第1爆撃航空団"
+            location = 604
+            equipment = { bomber_equipment_1 = 20 }  # 初期爆撃機の数
+            start_experience_factor = 0.6
+        }
+    }
+}
