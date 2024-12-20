@@ -1,4 +1,4 @@
-HTL = {
+GEM = {
     color = { 1.0 0.8 0.1 }
     capital = 68  # ostmarkのID
     primary_culture = germoney
