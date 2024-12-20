@@ -1,0 +1,10 @@
+capital = 537
+
+set_stability = 0.59
+set_war_support = 0.66
+
+set_popularities = {
+ neutrality = 10
+ republican = 40
+ fascism = 45
+ communism = 5
