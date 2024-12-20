@@ -1,0 +1,22 @@
+NTH = {
+    color = { 0.7 0.1 0.1 }
+    capital = 537
+    primary_culture = japan
+    base_tax = 8
+    army = 200000
+    air = 450000
+    navy = 100000
+    owner = {
+      537 646 637 463 536
+    }
+    cores = {
+       537 646 463 
+    }
+    manpower = 1700000  # 初期人的資源（例: 170万人）
+    equipment = {
+        infantry_equipment = 210000  # 初期歩兵装備
+        artillery = 4500  # 初期砲兵（例: 4,500）
+        tank = 950 # 初期戦車（例: 950）
+        fighter = 176  # 初期戦闘機（例: 176）
+    }
+}
