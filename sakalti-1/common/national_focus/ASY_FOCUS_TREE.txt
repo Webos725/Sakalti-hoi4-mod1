@@ -24,9 +24,11 @@ focus_tree = {
                 type = annex_everything
                 target = SOV
                 province = {
-                    677  # Azerbaijan
-                    675  # Armenia
-                    291  # Georgia
+                    229 # アゼルバイジャン
+                    826 # アブハジア
+                    230 #　アルメニア
+                    231 #　ジョージア
+
                 }
             }
         }
