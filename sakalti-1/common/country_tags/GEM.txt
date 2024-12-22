@@ -7,10 +7,10 @@ GEM = {
     air = 250000
     navy = 180000
     owner = {
-        68  # ostmarkのID
+        68 62 63 85 807 5  # ostmarkのID
     }
     cores = {
-        68  # ostmarkのコア
+        68 62 63 807  # ostmarkのコア
     }
     manpower = 945000  # 初期人的資源（例: 260,000人）
     equipment = {
