@@ -1,4 +1,4 @@
-GEM = {
+ASY = {
     color = { 0.6 0.6 0.9 }
     capital = 291  # ID
     primary_culture = assyria
@@ -19,4 +19,5 @@ GEM = {
         tank = 450 # 初期戦車（例: 750）
         fighter = 40  # 初期戦闘機（例: 40）
     }
+    name = "新バビロニア"
 }
